@@ -40,6 +40,7 @@ class Solution {
 
             var thisLevelMax = 0
             (0..size - 1).forEach {
+
                 val thisLevelAdd = calcNumsSum(levelNums, it)
                 val next = IntArray(size-1) {
                     it2->
@@ -50,6 +51,7 @@ class Solution {
                         }
                 }
                 val lowerLevelMax = loopLevel(next)
+
                 if(lowerLevelMax + thisLevelAdd > thisLevelMax){
                     thisLevelMax = lowerLevelMax + thisLevelAdd
                 }
