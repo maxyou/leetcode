@@ -46,6 +46,7 @@ class Solution {
         println("5: i=$i,j=$j")
         println(Arrays.toString(nums))
 
+
         if(nums[i] == `val`){
             return i
         }else{
