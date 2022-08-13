@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sum4.SolutionTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-10-05T08:50:49" hostname="DESKTOP-2V4RK8Q" time="0.023">
+  <properties/>
+  <testcase name="solutionTest" classname="Sum4.SolutionTest" time="0.023"/>
+  <system-out><![CDATA[[[-1, 0, 0, 1], [-2, 0, 0, 2], [-2, -1, 1, 2]]
+=======validSquare==========
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
